@@ -1,0 +1,43 @@
+.root {
+    position: relative;
+    input{
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 12px 20px 12px 40px;
+        width: 400px;
+        border-radius: 10px;
+        font-size: 16px;
+
+        &:focus {
+            border: 1px solid rgba(0, 0, 0, 0.2);
+        }
+    }
+
+    .icon {
+        width: 24px;
+        height: 24px;
+        opacity: 0.5;
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+
+    .clearIcon {
+        width: 18px;
+        height: 18px;
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        cursor: pointer;
+        opacity: 0.5;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}
+
+
+

@@ -1,0 +1,28 @@
+@import './../variables';
+
+.pagination {
+    display: flex;
+    li {
+        margin-right: 10px;
+        cursor: pointer;
+
+        &.selected {
+            a {
+                background: $orange;
+                color: #fff;
+            }
+        }
+
+
+        a {
+            border: 1px solid $orange;
+            border-radius: 50%;
+            color: $orange;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
